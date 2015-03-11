@@ -24,4 +24,12 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
+
+    <!-- Weather -->
+    <Preference
+        android:key="lockscreen_weather"
+        android:title="@string/lockscreen_weather_title"
+        android:fragment="com.pixeldust.settings.fragments.LockScreenWeatherSettings"
+        android:layout="@layout/preference_lock_screen_weather" />
+
 </PreferenceScreen>
