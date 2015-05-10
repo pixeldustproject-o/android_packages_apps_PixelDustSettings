@@ -139,6 +139,10 @@
     <string name="powermenu_users">Users</string>
     <string name="powermenu_torch">Flashlight</string>
 
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
+    <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+
     <!-- Recents panel settings -->
     <string name="clearall_recents_category">Clear all button</string>
     <string name="show_clear_all_recents_button_title">Enable clear all button</string>
