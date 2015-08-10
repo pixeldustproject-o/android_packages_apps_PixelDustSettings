@@ -340,4 +340,8 @@
     <string name="systemui_theme_style_auto">Wallpaper based</string>
     <string name="systemui_theme_style_light">Light style</string>
     <string name="systemui_theme_style_dark">Dark style</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
 </resources>
