@@ -293,4 +293,8 @@
     <string name="weather_number_of_notifications_title">Number of notifications</string>
     <string name="weather_settings_options_title">Location settings</string>
     <string name="weather_settings_summary">Choose location and other settings</string>
+
+    <!-- Fingerprint vibrate -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
 </resources>
