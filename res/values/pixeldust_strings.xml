@@ -89,4 +89,8 @@
     <!-- Navigation bar arrow keys -->
     <string name="show_navbar_arrow_keys_title">Show arrow keys while typing</string>
     <string name="show_navbar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing.</string>
+
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Toast app icon</string>
+    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
 </resources>
