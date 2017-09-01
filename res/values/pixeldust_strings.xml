@@ -544,4 +544,6 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">No power menu when locked</string>
     <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
+
+    <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
 </resources>
