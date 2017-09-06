@@ -49,4 +49,10 @@
         android:entryValues="@array/quick_pulldown_values"
         android:persistent="false" />
 
+    <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_footer_warnings"
+        android:title="@string/qs_footer_warnings_title"
+        android:summary="@string/qs_footer_warnings_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
