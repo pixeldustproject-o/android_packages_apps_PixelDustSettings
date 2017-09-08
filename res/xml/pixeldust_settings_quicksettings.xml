@@ -53,4 +53,9 @@
         android:title="@string/status_bar_quick_qs_pulldown"
         android:defaultValue="true" />
 
+    <Preference
+        android:key="qs_rows_columns"
+        android:fragment="com.pixeldust.settings.fragments.QsRowsColumns"
+        android:title="@string/qs_rows_columns_title"/>
+
 </PreferenceScreen>
