@@ -24,4 +24,9 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.PowerActivity" />
     </Preference>
+
+    <Preference
+        android:key="notification_light"
+        android:fragment="com.android.settings.applications.NotificationApps"
+        android:title="@string/notification_light_settings" />
 </PreferenceScreen>
