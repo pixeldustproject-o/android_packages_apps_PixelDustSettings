@@ -71,4 +71,7 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navigation bar buttons</string>
+
+    <!-- Power notification controls -->
+    <string name="power_notification_title">Power notification controls</string>
 </resources>
