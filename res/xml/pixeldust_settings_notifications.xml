@@ -35,4 +35,11 @@
         android:title="@string/toast_icon_title"
         android:summary="@string/toast_icon_summary"
         android:defaultValue="false" />
+
+     <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
+        android:key="vibration_on_charge_state_changed"
+        android:title="@string/vibration_on_charge_state_changed_title"
+        android:summary="@string/vibration_on_charge_state_changed_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
