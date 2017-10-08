@@ -648,4 +648,8 @@
     <string name="power_menu_tweaks">Power Menu Tweaks</string>
     <string name="power_menu_transparency">Power/reboot menu opacity</string>
     <string name="power_menu_dialog_dim">Power/reboot dialog dim background amount</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 </resources>
