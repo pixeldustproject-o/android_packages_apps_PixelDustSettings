@@ -65,6 +65,8 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private AlertDialog mDialog;
     private ListView mListView;
 
+    private SwitchPreference mSlimToggle;
+    private Preference mStockIconPacks;
     private SwitchPreference mRecentsClearAll;
     private ListPreference mRecentsClearAllLocation;
     private ListPreference mImmersiveRecents;
@@ -75,6 +77,14 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.pixeldust_settings_recents);
         final ContentResolver resolver = getActivity().getContentResolver();
+
+        // Slim Recents
+        mStockIconPacks = (Preference) findPreference("recents_icon_pack");
+        mSlimToggle = (SwitchPreference) findPreference("use_slim_recents");
+        boolean enabled = Settings.System.getIntForUser(
+                resolver, Settings.System.USE_SLIM_RECENTS, 0,
+                UserHandle.USER_CURRENT) == 1;
+        mSlimToggle.setOnPreferenceChangeListener(this);
 
         // clear all location
         mRecentsClearAllLocation = (ListPreference) findPreference(RECENTS_CLEAR_ALL_LOCATION);
@@ -87,9 +97,11 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         // Immersive Recents
         mImmersiveRecents = (ListPreference) findPreference(IMMERSIVE_RECENTS);
         mImmersiveRecents.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.IMMERSIVE_RECENTS, 0)));
+                resolver, Settings.System.IMMERSIVE_RECENTS, 0)));
         mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
         mImmersiveRecents.setOnPreferenceChangeListener(this);
+
+        updateRecentsPreferences();
     }
 
     @Override
@@ -98,23 +110,38 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         if (preference == mRecentsClearAllLocation) {
             int location = Integer.valueOf((String) newValue);
             int index = mRecentsClearAllLocation.findIndexOfValue((String) newValue);
-            Settings.System.putIntForUser(getContentResolver(),
+            Settings.System.putIntForUser(resolver,
                     Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
             mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
             return true;
         } else if (preference == mImmersiveRecents) {
-            Settings.System.putInt(getContentResolver(), Settings.System.IMMERSIVE_RECENTS,
+            Settings.System.putInt(resolver, Settings.System.IMMERSIVE_RECENTS,
                     Integer.valueOf((String) newValue));
             mImmersiveRecents.setValue(String.valueOf(newValue));
             mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
+            return true;
+        } else if (preference == mSlimToggle) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.USE_SLIM_RECENTS, value ? 1 : 0,
+                    UserHandle.USER_CURRENT);
+            updateRecentsPreferences();
             return true;
         }
         return false;
     }
 
+    private void updateRecentsPreferences() {
+        boolean enabled = Settings.System.getIntForUser(
+                getActivity().getContentResolver(), Settings.System.USE_SLIM_RECENTS, 0,
+                UserHandle.USER_CURRENT) == 1;
+        mStockIconPacks.setEnabled(!enabled);
+        mSlimToggle.setChecked(enabled);
+    }
+
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == findPreference("recents_icon_pack")) {
+        if (preference == mStockIconPacks) {
             pickIconPack(getContext());
             return true;
         }
