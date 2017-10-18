@@ -113,4 +113,8 @@
     <string name="hardware_keys_back_key_title">Back button</string>
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
+
+    <!-- QS Dark -->
+    <string name="qs_style_dark_title">Dark SystemUI style</string>
+    <string name="qs_style_dark_summary">Change QS panel and volume panel to a dark color. Restarts SystemUI</string>
 </resources>
