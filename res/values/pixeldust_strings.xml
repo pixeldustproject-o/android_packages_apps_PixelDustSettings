@@ -561,6 +561,9 @@
     <string name="heads_up_cat_summary">Whitelist, blacklist etc.</string>
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app</string>
+    <string name="heads_up_title">Enable</string>
+    <string name="heads_up_summary_enabled">Heads up notifications are enabled</string>
+    <string name="heads_up_summary_disabled">Heads up notifications are disabled</string>
 
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">QS rows and columns</string>
