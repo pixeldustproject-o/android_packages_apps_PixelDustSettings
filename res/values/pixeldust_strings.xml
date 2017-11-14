@@ -28,7 +28,7 @@
     <string name="powermenu_title">Power menu</string>
     <string name="quicksettings_title">Quick Settings</string>
     <string name="recents_title">Recents apps</string>
-    <string name="statusbar_title">Status bar</string>
+    <string name="statusbar_title">Statusbar</string>
     <string name="volume_title">Volume Settings</string>
 
     <!-- Color picker -->
@@ -52,7 +52,7 @@
     <string name="save">Save</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Manage statusbar icons</string>
 
     <!-- Volume down enter do not disturb -->
     <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
@@ -297,4 +297,8 @@
     <!-- Fingerprint vibrate -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
+    <!-- Statusbar network traffic -->
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 </resources>
