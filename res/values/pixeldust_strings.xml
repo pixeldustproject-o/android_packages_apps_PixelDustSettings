@@ -19,6 +19,7 @@
     <string name="pixeldust_settings_title">Pixel Dust Settings</string>
 
     <!-- Categories -->
+    <string name="animations_title">Animations</string>
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>
