@@ -124,10 +124,6 @@
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
     <string name="long_press_kill_delay">App kill delay</string>
 
-    <!-- QS Dark -->
-    <string name="qs_style_dark_title">Dark SystemUI style</string>
-    <string name="qs_style_dark_summary">Change QS panel and volume panel to a dark color. Restarts SystemUI</string>
-
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
     <string name="quick_pulldown_summary">%1$s edge of the statusbar pulls down Quick Settings</string>
