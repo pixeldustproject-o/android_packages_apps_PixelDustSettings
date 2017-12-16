@@ -327,4 +327,10 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+
+    <!-- SystemUI theme -->
+    <string name="systemui_theme_style_title">Tiles panel and power menu style</string>
+    <string name="systemui_theme_style_auto">Wallpaper based</string>
+    <string name="systemui_theme_style_light">Light style</string>
+    <string name="systemui_theme_style_dark">Dark style</string>
 </resources>
