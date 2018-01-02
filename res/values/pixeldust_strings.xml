@@ -238,22 +238,6 @@
     <string name="block_on_secure_keyguard_title">Disable quick settings</string>
     <string name="block_on_secure_keyguard_summary">Disables quick settings on secure lockscreen</string>
 
-     <!-- Power menu Animations  -->
-    <string name="power_menu_animation_title">Power menu animation</string>
-    <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
-    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
-    <string name="power_menu_animation_aosp">AOSP (default)</string>
-    <string name="power_menu_animation_bottom">Bottom</string>
-    <string name="power_menu_animation_top">Top</string>
-    <string name="power_menu_animation_rotate">Rotation</string>
-    <string name="power_menu_animation_xylon">Fly</string>
-    <string name="power_menu_animation_slide">Slide</string>
-    <string name="power_menu_animation_turn">Turn</string>
-    <string name="power_menu_animation_fly">Glow</string>
-    <string name="power_menu_animation_card">3D</string>
-    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
-
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">QS footer warnings</string>
     <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
