@@ -54,10 +54,11 @@
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
 
-    <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
+    <ListPreference
         android:key="notification_sound_vib_screen_on"
         android:title="@string/notification_sound_vib_screen_on_title"
-        android:summary="@string/notification_sound_vib_screen_on_summary"
-        android:defaultValue="true" />
+        android:entries="@array/notification_sound_vib_screen_on_entries"
+        android:entryValues="@array/notification_sound_vib_screen_on_values"
+        android:summary="%s" />
 
 </PreferenceScreen>
