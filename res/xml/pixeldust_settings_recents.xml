@@ -36,7 +36,7 @@
             android:dependency="use_slim_recents"
             android:persistent="false" />
 
-     <PreferenceCategory
+     <!--PreferenceCategory
          android:key="immersive_recents_category"
          android:title="@string/immersive_recents_title"/>
 
@@ -60,9 +60,9 @@
         <Preference
            android:key="recents_icon_pack"
            android:title="@string/recents_icon_pack_title"
-           android:summary="@string/recents_icon_pack_summary" />
+           android:summary="@string/recents_icon_pack_summary" /-->
 
-     <PreferenceCategory
+     <!--PreferenceCategory
          android:key="clearall_recents_category"
          android:title="@string/clearall_recents_category"/>
 
@@ -79,6 +79,6 @@
             android:entries="@array/recents_clear_all_location_entries"
             android:entryValues="@array/recents_clear_all_location_values"
             android:defaultValue="3"
-            android:dependency="show_clear_all_recents" />
+            android:dependency="show_clear_all_recents" /-->
 
 </PreferenceScreen>
