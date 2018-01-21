@@ -116,15 +116,6 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
-    <!-- Quick pull down-->
-    <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">%1$s edge of the statusbar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show quick settings on statusbar pulldown</string>
-    <string name="quick_pulldown_off">Off</string>
-    <string name="quick_pulldown_left">Left</string>
-    <string name="quick_pulldown_right">Right</string>
-    <string name="quick_pulldown_always">Always</string>
-
     <!-- Power menu options -->
     <string name="powermenu_power">Power</string>
     <string name="powermenu_restart">Restart</string>
