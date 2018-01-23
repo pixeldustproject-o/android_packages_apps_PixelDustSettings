@@ -39,4 +39,11 @@
             android:title="@string/chooser_activity_blacklist_title"
             android:summary="@string/chooser_activity_blacklist_summary"
             android:persistent="false" />
+
+    <Preference
+         android:key="smart_pixels"
+         android:title="@string/smart_pixels_title"
+         android:summary="@string/smart_pixels_summary"
+         android:fragment="com.pixeldust.settings.fragments.SmartPixels" />
+
 </PreferenceScreen>
