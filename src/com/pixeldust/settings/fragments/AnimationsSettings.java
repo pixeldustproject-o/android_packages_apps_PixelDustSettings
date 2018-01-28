@@ -79,8 +79,8 @@ public class AnimationsSettings extends SettingsPreferenceFragment implements
         mListViewInterpolator.setEnabled(listviewanimation > 0);
 
         mScreenOffAnimation = (ListPreference) findPreference(KEY_SCREEN_OFF_ANIMATION);
-        int screenOffAnimation = Settings.Global.getInt(getContentResolver(),
-                Settings.Global.SCREEN_OFF_ANIMATION, 0);
+        int screenOffAnimation = Settings.System.getInt(getContentResolver(),
+                Settings.System.SCREEN_OFF_ANIMATION, 0);
         mScreenOffAnimation.setValue(Integer.toString(screenOffAnimation));
         mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
         mScreenOffAnimation.setOnPreferenceChangeListener(this);
@@ -124,7 +124,7 @@ public class AnimationsSettings extends SettingsPreferenceFragment implements
             int value = Integer.valueOf((String) newValue);
             int index = mScreenOffAnimation.findIndexOfValue((String) newValue);
             mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntries()[index]);
-            Settings.Global.putInt(getContentResolver(), Settings.Global.SCREEN_OFF_ANIMATION, value);
+            Settings.System.putInt(getContentResolver(), Settings.System.SCREEN_OFF_ANIMATION, value);
             return true;
         }
         return false;
