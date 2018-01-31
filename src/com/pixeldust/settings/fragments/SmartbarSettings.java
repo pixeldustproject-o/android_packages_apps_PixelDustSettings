@@ -109,7 +109,7 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
         mButtonsAlpha =
                 (CustomSeekBarPreference) findPreference(PREF_NAVBAR_BUTTONS_ALPHA);
         int bAlpha = Settings.Secure.getIntForUser(getContentResolver(),
-                "navbar_buttons_alpha", 255, UserHandle.USER_CURRENT);
+                "navbar_buttons_alpha", 165, UserHandle.USER_CURRENT);
         mButtonsAlpha.setValue(bAlpha / 1);
         mButtonsAlpha.setOnPreferenceChangeListener(this);
 
