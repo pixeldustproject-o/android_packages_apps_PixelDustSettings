@@ -611,4 +611,9 @@
     <string name="less_notification_sounds_30s">Every 30 seconds</string>
     <string name="less_notification_sounds_1m">Every minute</string>
     <string name="less_notification_sounds_2m">Every 2 minutes</string>
+
+    <!-- Dynamic Navbar -->
+    <string name="navbar_dynamic_title">Dynamic navbar color</string>
+    <string name="navbar_dynamic_summary">Adapt navbar color to match foreground running app primary color</string>
+    <string name="restart_app_required">Restart respective app to see effect</string>
 </resources>
