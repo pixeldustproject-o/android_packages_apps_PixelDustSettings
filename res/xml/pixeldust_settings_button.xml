@@ -30,10 +30,16 @@
 
     </PreferenceCategory>
 
-    <PreferenceScreen
-        android:key="volume_key"
-        android:fragment="com.pixeldust.settings.fragments.VolumeSettings"
-        android:title="@string/volume_title" />
+    <PreferenceCategory
+        android:key="volume_rocker"
+        android:title="@string/hardware_keys_volume_rocker_title" >
+
+        <PreferenceScreen
+            android:key="volume_key"
+            android:fragment="com.pixeldust.settings.fragments.VolumeSettings"
+            android:title="@string/volume_title" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="hardware_keys"

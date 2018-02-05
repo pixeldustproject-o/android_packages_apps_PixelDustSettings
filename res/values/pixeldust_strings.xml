@@ -283,6 +283,7 @@
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
     <!-- Volume rocker music control -->
+    <string name="hardware_keys_volume_rocker_title">Volume rocker</string>
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
     <!-- Volume rocker wake -->
