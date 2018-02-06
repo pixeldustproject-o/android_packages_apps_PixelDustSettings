@@ -28,9 +28,4 @@
          android:fragment="com.pixeldust.settings.fragments.AlarmBlocker"
          android:title="@string/alarm_blocker" />
 
-    <Preference
-        android:key="panel_porn"
-        android:title="@string/panel_porn_title"
-        android:fragment="com.pixeldust.settings.fragments.PanelPorn" />
-
 </PreferenceScreen>
