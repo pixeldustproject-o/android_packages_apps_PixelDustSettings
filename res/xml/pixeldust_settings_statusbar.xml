@@ -46,4 +46,13 @@
         android:summary="%s"
         android:title="@string/ticker_mode_title" />
 
+    <PreferenceCategory
+        android:title="@string/status_bar_clock_title"/>
+
+    <Preference
+            android:key="clock_settings"
+            android:title="@string/status_bar_clock"
+            android:summary="@string/status_bar_clock_summary"
+            android:fragment="com.pixeldust.settings.fragments.ClockDateSettings" />
+
 </PreferenceScreen>
