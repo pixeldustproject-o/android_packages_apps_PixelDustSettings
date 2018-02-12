@@ -55,4 +55,17 @@
             android:summary="@string/status_bar_clock_summary"
             android:fragment="com.pixeldust.settings.fragments.ClockDateSettings" />
 
+    <PreferenceCategory
+        android:key="battery_style_category"
+        android:title="@string/battery_style_category_title" >
+
+        <ListPreference
+            android:key="battery_style"
+            android:title="@string/battery_style_title"
+            android:summary="@string/battery_style_summary"
+            android:entries="@array/battery_style_entries"
+            android:entryValues="@array/battery_style_values" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
