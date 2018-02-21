@@ -600,7 +600,8 @@
     <string name="force_ambient_for_media_on_forced_clean">Minimal (forced)</string>
 
     <!-- Screen off animation -->
-    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_fade">Simple fade</string>
+    <string name="screen_off_animation_color">Color fade</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
     <string name="screen_off_animation_title">Screen off animation</string>
