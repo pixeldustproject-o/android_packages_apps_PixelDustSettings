@@ -557,6 +557,8 @@
     <string name="headset_connect_player_both">Any headset plugged in</string>
 
     <!-- Heads up options -->
+    <string name="heads_up_cat_title">Heads up</string>
+    <string name="heads_up_cat_summary">Whitelist, blacklist etc.</string>
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app</string>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 The Pixel Dust Project
+<!-- Copyright (C) 2018 The Pixel Dust Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,23 +18,11 @@
     android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!--Preference
-            android:title="@string/power_notification_title" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.PowerActivity" />
-    </Preference-->
-
     <Preference
-        android:key="notification_light"
-        android:fragment="com.android.settings.applications.NotificationApps"
-        android:title="@string/notification_light_settings" />
-
-    <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
-        android:key="less_boring_heads_up"
-        android:title="@string/less_boring_heads_up_title"
-        android:summary="@string/less_boring_heads_up_summary"
-        android:defaultValue="true" />
+        android:key="heads_up_settings"
+        android:title="@string/heads_up_cat_title"
+        android:summary="@string/heads_up_cat_summary"
+        android:fragment="com.pixeldust.settings.headsup.HeadsUpSettings" />
 
     <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
         android:key="toast_icon"
