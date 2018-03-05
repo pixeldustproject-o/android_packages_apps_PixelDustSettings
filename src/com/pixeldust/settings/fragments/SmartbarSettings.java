@@ -101,7 +101,7 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
         mImeActions.setOnPreferenceChangeListener(this);
 
         int buttonAnimVal = Settings.Secure.getIntForUser(getContentResolver(),
-                "smartbar_button_animation_style", 0, UserHandle.USER_CURRENT);
+                "smartbar_button_animation_style", 4, UserHandle.USER_CURRENT);
         mButtonAnim = (ListPreference) findPreference("smartbar_button_animation");
         mButtonAnim.setValue(String.valueOf(buttonAnimVal));
         mButtonAnim.setOnPreferenceChangeListener(this);
