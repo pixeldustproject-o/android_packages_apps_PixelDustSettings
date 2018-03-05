@@ -4,7 +4,7 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
-import android.content.Context
+import android.content.Context;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.UserHandle;
@@ -21,10 +21,11 @@ import com.android.internal.util.pixeldust.PixeldustUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
-    private ListPreference mTorchPowerButton;
 public class ButtonSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
+
+    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+    private ListPreference mTorchPowerButton;
 
     @Override
     public void onCreate(Bundle icicle) {
