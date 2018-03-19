@@ -715,5 +715,10 @@
 
     <!-- System default animation -->
     <string name="system_default_animation_title">Android P animation style</string>
-    <string name="system_default_animation_summary">Enable Android P \"Default\" animations</string>
+    <string name="system_default_animation_summary">Enable Android P \"Default\"
+ animations</string>
+
+    <!-- Ambient display weather -->
+    <string name="ambient_display_weather_title">Ambient display weather</string>
+    <string name="ambient_display_weather_summary">Show weather information on the bottom of ambient display</string>
 </resources>
