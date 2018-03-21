@@ -760,5 +760,5 @@
     <string name="chooser_activity_blacklist_pref_summary">Tap here to add, tap on added app to remove it</string>
 
     <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Transparency</string>
+    <string name="qs_panel_alpha_title">Opacity</string>
 </resources>
