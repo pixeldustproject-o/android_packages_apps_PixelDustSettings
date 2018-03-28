@@ -39,7 +39,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#FF5252" />
+                android:background="#ffa80000" />
 
             <Button
                 android:id="@+id/pinkAccent"
@@ -48,7 +48,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#FF4081" />
+                android:background="#ffe52c5f" />
 
             <Button
                 android:id="@+id/purpleAccent"
@@ -57,7 +57,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#E040FB" />
+                android:background="#ff3c5ae0" />
 
             <Button
                 android:id="@+id/deeppurpleAccent"
@@ -66,7 +66,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#7C4DFF" />
+                android:background="#ff822b6b" />
 
             <Button
                 android:id="@+id/indigoAccent"
@@ -84,7 +84,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#448AFF" />
+                android:background="#ff214567" />
 
             <Button
                 android:id="@+id/lightblueAccent"
@@ -93,7 +93,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#03A9F4" />
+                android:background="#ff327ccb" />
 
             <Button
                 android:id="@+id/cyanAccent"
@@ -102,7 +102,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#00BCD4" />
+                android:background="#ffe0f2f1" />
 
             <Button
                 android:id="@+id/tealAccent"
@@ -129,7 +129,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#8BC34A" />
+                android:background="#ff00e8e0" />
 
             <Button
                 android:id="@+id/limeAccent"
@@ -156,7 +156,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#FFC107" />
+                android:background="#fff6ca11" />
 
             <Button
                 android:id="@+id/orangeAccent"
@@ -192,7 +192,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#9E9E9E" />
+                android:background="#ff556270" />
 
             <Button
                 android:id="@+id/bluegreyAccent"
@@ -201,7 +201,7 @@
                 android:layout_columnWeight="1"
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
-                android:background="#607D8B" />
+                android:background="#ff2f3248" />
 
             <Button
                 android:id="@+id/blackAccent"
