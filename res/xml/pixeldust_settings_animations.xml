@@ -26,6 +26,12 @@
         android:entries="@array/entries_scrollingcache"
         android:entryValues="@array/values_scrollingcache" />
 
+    <com.pixeldust.settings.preferences.GlobalSettingSwitchPreference
+        android:key="system_default_animation"
+        android:title="@string/system_default_animation_title"
+        android:summary="@string/system_default_animation_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="pixeldust_animation"
         android:title="@string/system_animation_title"

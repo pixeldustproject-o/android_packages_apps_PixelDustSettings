@@ -707,4 +707,8 @@
     <string name="screenshot_edit_app">Screenshot editor</string>
     <string name="screenshot_edit_app_summary">Select which image editor to use to edit screenshots</string>
     <string name="screenshot_edit_app_no_editor">No image editor available</string>
+
+    <!-- System default animation -->
+    <string name="system_default_animation_title">Android P animation style</string>
+    <string name="system_default_animation_summary">Enable Android P \"Default\" animations</string>
 </resources>
