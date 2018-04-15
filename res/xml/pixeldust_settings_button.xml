@@ -53,4 +53,16 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="back_key"
+        android:title="@string/button_back_key_title" >
+
+        <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
+            android:key="button_back_kill_enable"
+            android:title="@string/button_back_kill_enable_title"
+            android:summary="@string/button_back_kill_enable_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
