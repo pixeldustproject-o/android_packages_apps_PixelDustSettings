@@ -21,11 +21,16 @@ import com.android.internal.util.pixeldust.PixeldustUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.pixeldust.settings.preferences.SystemSettingSwitchPreference;
+
 public class ButtonSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
     private ListPreference mTorchPowerButton;
+
+    private static final String BUTTON_BACK_KILL_ENABLE = "button_back_kill_enable";
+    private SystemSettingSwitchPreference mBackButton;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -47,6 +52,16 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
             mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
             mTorchPowerButton.setOnPreferenceChangeListener(this);
+        }
+
+        mBackButton = (SystemSettingSwitchPreference) findPreference(BUTTON_BACK_KILL_ENABLE);
+        int mode = Settings.Secure.getInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_MODE, 1);
+        if (mode == 0) {
+            mBackButton.setEnabled(true);
+            mBackButton.setSummary(R.string.button_back_kill_enable_summary);
+        } else {
+            mBackButton.setEnabled(false);
+            mBackButton.setSummary(R.string.button_back_kill_enable_summary_off);
         }
     }
 

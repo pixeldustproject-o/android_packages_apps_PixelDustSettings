@@ -739,4 +739,6 @@
     <string name="button_back_key_title">Back button</string>
     <string name="button_back_kill_enable_title">Kill app back button</string>
     <string name="button_back_kill_enable_summary">Kill the foreground app by long-pressing the back button</string>
+    <string name="button_back_kill_enable_summary_off">Kill the foreground app by long-pressing the back button\nWill only work in conjunction with using Stock Navbar layout!</string>
+
 </resources>
