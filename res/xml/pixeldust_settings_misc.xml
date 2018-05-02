@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 The Pixel Dust Project
+<!-- Copyright (C) 2018 The Pixel Dust Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -32,4 +32,11 @@
         android:key="screenshot_edit_app"
         android:title="@string/screenshot_edit_app"
         android:summary="@string/screenshot_edit_app_summary" />
+
+        <Preference
+            android:key="chooser_activity_blacklist"
+            android:fragment="com.pixeldust.settings.preferences.ChooserActivityBlacklist"
+            android:title="@string/chooser_activity_blacklist_title"
+            android:summary="@string/chooser_activity_blacklist_summary"
+            android:persistent="false" />
 </PreferenceScreen>
