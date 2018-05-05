@@ -29,8 +29,7 @@
     <Preference
         android:key="lockscreen_weather"
         android:title="@string/lockscreen_weather_title"
-        android:fragment="com.pixeldust.settings.fragments.LockScreenWeatherSettings"
-        android:layout="@layout/preference_lock_screen_weather" />
+        android:fragment="com.pixeldust.settings.fragments.LockScreenWeatherSettings" />
 
     <com.pixeldust.settings.preferences.SystemSettingListPreference
         android:key="lock_clock_fonts"
