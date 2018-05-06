@@ -751,7 +751,7 @@
     <string name="button_back_key_title">Back button</string>
     <string name="button_back_kill_enable_title">Kill app back button</string>
     <string name="button_back_kill_enable_summary">Kill the foreground app by long-pressing the back button</string>
-    <string name="button_back_kill_enable_summary_off">Kill the foreground app by long-pressing the back button\nWill only work in conjunction with using Stock Navbar layout!</string>
+    <string name="button_back_kill_enable_summary_off">Kill the foreground app by long-pressing the back button\n\n(Only for use with Stock Navbar layout)</string>
 
     <string name="chooser_activity_blacklist_title">Chooser Activity blacklist</string>
     <string name="chooser_activity_blacklist_summary">Apps to not show when tapping on a Share button</string>

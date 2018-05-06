@@ -54,7 +54,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="back_key"
+        android:key="button_back_key"
         android:title="@string/button_back_key_title" >
 
         <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
