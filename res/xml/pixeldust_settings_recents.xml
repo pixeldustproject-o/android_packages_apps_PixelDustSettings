@@ -41,7 +41,6 @@
         android:title="@string/hide_apps_from_recents_title"/>
 
         <PreferenceScreen
-            android:icon="@drawable/ic_hafr"
             android:title="@string/hide_apps_from_recents_title"
             android:dependency="recents_icon_pack" >
             <intent android:action="android.intent.action.MAIN"
