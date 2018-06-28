@@ -46,4 +46,10 @@
          android:summary="@string/smart_pixels_summary"
          android:fragment="com.pixeldust.settings.fragments.SmartPixels" />
 
+    <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
+         android:key="screenshot_sound"
+         android:title="@string/screenshot_sound_title"
+         android:summary="@string/screenshot_sound_summary"
+         android:defaultValue="true" />
+
 </PreferenceScreen>
