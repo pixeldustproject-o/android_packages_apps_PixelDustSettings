@@ -80,12 +80,6 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navigation bar buttons</string>
 
-    <!-- Power notification controls -->
-    <string name="power_notification_title">Power notification controls</string>
-
-    <!-- Notification light settings -->
-    <string name="notification_light_settings">Notifications light</string>
-
     <!-- Scrolling Cache -->
     <string name="pref_scrollingcache_title">Scrolling cache</string>
     <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
