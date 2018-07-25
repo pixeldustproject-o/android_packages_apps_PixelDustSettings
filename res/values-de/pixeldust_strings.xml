@@ -721,16 +721,6 @@
   <string name="ticker_enabled">Ticker für Benachrichtigungen</string>
   <string name="ticker_media_enabled">Ticker für Benachrichtigungen &amp; Musik</string>
 
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_pref_title">Ambient-Musik-Ticker</string>
-  <string name="force_ambient_for_media_pref_summary">Konfigurieren des Ambient-Musikticker</string>
-  <string name="ambient_ticker_footer">Mit dieser Funktion können Sie die aktuellen Musiktitelinformationen auf dem Sperrbildschirm mit oder ohne aktivierter Ambient-Anzeige anzeigen. Sie können zwischen zwei Layouts wählen, normal und minimal. Während diese Funktion die Ambient-Anzeige verwendet, ist sie nicht davon abhängig. Sie kann ausgelöst werden, ohne dass die Ambient-Anzeige aktiviert ist, indem Sie die (erzwungenen) Optionen verwenden. Die normale Ansicht enthält die Uhr, das Datum und den Ticker des Lockscreen. Die Minimale Ansicht enthält nur den Ticker in der Mitte des Bildschirms.</string>
-  <string name="force_ambient_for_media_title">Layout auswählen</string>
-  <string name="force_ambient_for_media_off">Ausgeschaltet</string>
-  <string name="force_ambient_for_media_on">Normal</string>
-  <string name="force_ambient_for_media_on_forced">Normal (gezwungen)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Minimal (gezwungen)</string>
-
   <!-- Screen off animation -->
   <string name="screen_off_animation_fade">Verblassen</string>
   <string name="screen_off_animation_color">Farben verblassen</string>
