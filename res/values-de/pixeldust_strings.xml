@@ -771,10 +771,6 @@
   <string name="system_default_animation_title">Android P Animationsstil</string>
   <string name="system_default_animation_summary">Aktiviert die \"Standard\"-Animationen von Android P</string>
 
-  <!-- Ambient display weather -->
-  <string name="ambient_display_weather_title">Wetter für Ambient-Anzeige</string>
-  <string name="ambient_display_weather_summary">Minimale Wetterinformationen auf der Ambient-Anzeige am unteren Rand darstellen</string>
-
   <!-- Show Lockscreen clock, date, & alarm -->
   <string name="lockscreen_item_category">Anzuzeigende Elemente</string>
   <string name="show_lockscreen_clock_title">Uhrzeit</string>

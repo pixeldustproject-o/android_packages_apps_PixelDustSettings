@@ -736,10 +736,6 @@
     <string name="system_default_animation_summary">Enable Android P \"Default\"
  animations</string>
 
-    <!-- Ambient display weather -->
-    <string name="ambient_display_weather_title">Ambient display weather</string>
-    <string name="ambient_display_weather_summary">Show weather information on the bottom of ambient display</string>
-
     <!-- Hide Lockscreen clock, date, alarm -->
     <string name="lockscreen_item_category">Lockscreen items</string>
     <string name="show_lockscreen_clock_title">Clock widget</string>
