@@ -24,7 +24,7 @@
   <string name="quicksettings_title">Schnelleinstellungen</string>
   <string name="recents_title">Anwendungsverlauf</string>
   <string name="statusbar_title">Statusleiste</string>
-  <string name="volume_title">Lautstärketaste</string>
+  <string name="volume_title">Lautstärke-Taste konfigurieren</string>
   <string name="notifications_title">Benachrichtigungen</string>
   <!-- General strings -->
   <string name="ok">OK</string>
@@ -115,6 +115,7 @@
   <string name="media_art_title">Albumcover anzeigen</string>
   <string name="media_art_summary">Albumcover auf dem Sperrbildschirm anzeigen</string>
   <!-- Torch Power button gestures -->
+  <string name="hardware_keys_power_key_title">Ein-/Aus-Taste</string>
   <string name="torch_power_button_gesture_title">Taschenlampe über Ein-/Aus-Taste bei ausgeschaltetem Bildschirm</string>
   <string name="torch_power_button_gesture_none">Ausgeschaltet</string>
   <string name="torch_power_button_gesture_dt">Zum Einschalten der Taschenlampe Ein-/Aus-Taste doppelt drücken (kleine Verzögerung zum einfachem Tippen)</string>
@@ -669,7 +670,7 @@
   <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
 
   <!-- Volume rocker music control -->
-  <string name="hardware_keys_volume_rocker_title">Lautstärkeregler</string>
+  <string name="hardware_keys_volume_rocker_title">Lautstärke-Taste</string>
   <string name="volume_button_music_control_title">Musik-Steuerung</string>
   <string name="volume_button_music_control_summary">Bei abgeschaltetem Bildschirm durch langes Drücken der Lautstärketaste den Musiktitel wechseln. Nach oben zum nächsten und nach unten zum vorherigen Titel springen.</string>
   <!-- Slim recents -->
