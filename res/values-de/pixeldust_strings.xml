@@ -384,7 +384,10 @@
   <string name="pulse_render_mode_title">Render-Modus</string>
   <string name="pulse_render_mode_fading_bars">Verblassende Blöcke</string>
   <string name="pulse_render_mode_solid_lines">Durchgezogene Linien</string>
+  <string name="pulse_accent_color_title"> Akzentfarbe für Puls verwenden</string>
+  <string name="pulse_accent_color_summary">Wenn diese Option aktiviert ist, dann verwendet Puls die aktuelle Akzentfarbe. Dadurch wird die Lavalampe deaktiviert.</string>
   <string name="fling_pulse_color">Puls Farbe</string>
+  <string name="fling_pulse_color_summary">Wird auch als Ersatz für die automatische Farbe verwendet.</string>
   <string name="eos_fling_lavalamp_title">Lava-Lampe einschalten</string>
   <string name="eos_fling_lavalamp_summary">Pulse wechselt automatisch die Farben in einem Lavalampen-Stil</string>
   <string name="pulse_advanced_category">Erweitert</string>
@@ -396,6 +399,8 @@
   <string name="pulse_solid_units_opacity">Transparenz der durchgezogenen Linien</string>
   <string name="pulse_solid_dimen_category">Einstellungen für durchgezogene Balken</string>
   <string name="pulse_custom_buttons_opacity_title">Transparenz der Smart-Bar-Tasten bei Pulse</string>
+  <string name="pulse_auto_color_title">Automatische Farbauswahl</string>
+  <string name="pulse_auto_color_summary">Farbe mit Musikcover synchronisieren. Überschreibt Deckkraft von Lavalampe und Linien.</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Breite der Balken</string>
   <string name="pulse_custom_div">Abstand der Balken</string>
