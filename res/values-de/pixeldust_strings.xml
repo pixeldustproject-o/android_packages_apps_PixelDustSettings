@@ -87,10 +87,10 @@
   <string name="power_notification_title">Erweiterte Einstellungen für Benachrichtigungen</string>
   <!-- Volume down enter do not disturb -->
   <string name="volbtn_down_zen_title">Lautstärketaste nach unten für \"Bitte nicht stören\"-Modus</string>
-  <string name="volbtn_down_zen_summary">Erlaube Lautstärketaste nach unten für \"Bitte nicht stören\"-Modus</string>
+  <string name="volbtn_down_zen_summary">Lautstärketaste nach unten für \"Bitte nicht stören\"-Modus einschalten</string>
   <!-- Volume up exit do not disturb -->
   <string name="volbtn_up_zen_title">Lautstärketaste nach oben im \"Bitte nicht stören\"-Modus</string>
-  <string name="volbtn_up_zen_summary">Erlaube Lautstärketaste nach oben um \"Bitte nicht stören\"-Modus zu beenden</string>
+  <string name="volbtn_up_zen_summary">Lautstärketaste nach oben um \"Bitte nicht stören\"-Modus zu beenden einschalten</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Helligkeitsregler</string>
   <string name="qs_brightness_slider_summary">Helligkeitsregler in den Schnelleinstellungen anzeigen</string>
@@ -382,14 +382,14 @@
   <string name="pulse_help_policy_notice_summary">Pulse funktioniert mit einigen Audioquellen nicht, wenn die Ausgabe über die Gerätelautsprecher erfolgt</string>
   <string name="pulse_settings">Pulse</string>
   <string name="pulse_settings_summary">Navigationsleiste Audiografik Equalizer</string>
-  <string name="fling_show_pulse_title">Erlaube Puls</string>
+  <string name="fling_show_pulse_title">Pulse aktivieren</string>
   <string name="fling_show_pulse_summary">Grafischer Audio-Equalizer in der Navigationsleiste</string>
   <string name="pulse_render_mode_title">Render-Modus</string>
   <string name="pulse_render_mode_fading_bars">Verblassende Blöcke</string>
   <string name="pulse_render_mode_solid_lines">Durchgezogene Linien</string>
-  <string name="pulse_accent_color_title"> Akzentfarbe für Puls verwenden</string>
-  <string name="pulse_accent_color_summary">Wenn diese Option aktiviert ist, dann verwendet Puls die aktuelle Akzentfarbe. Dadurch wird die Lavalampe deaktiviert.</string>
-  <string name="fling_pulse_color">Puls Farbe</string>
+  <string name="pulse_accent_color_title"> Akzentfarbe für Pulse verwenden</string>
+  <string name="pulse_accent_color_summary">Wenn diese Option aktiviert ist, dann verwendet Pulse die aktuelle Akzentfarbe. Dadurch wird die Lavalampe deaktiviert.</string>
+  <string name="fling_pulse_color">Pulse Farbe</string>
   <string name="fling_pulse_color_summary">Wird auch als Ersatz für die automatische Farbe verwendet.</string>
   <string name="eos_fling_lavalamp_title">Lava-Lampe einschalten</string>
   <string name="eos_fling_lavalamp_summary">Pulse wechselt automatisch die Farben in einem Lavalampen-Stil</string>
